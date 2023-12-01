@@ -1,0 +1,2057 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>整卷预览</title>
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/pop.css?v=2021-0311-1412"/>
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/commonStuExam.css?v=2022-1209-1428"/>
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/q_marking_icon.css"/>
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/style.css?v=2021-1206-1809" >
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/viewStudent.css?v=2022-1009-1530"/>
+    <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/newBuiltStudent.css?v=2023-0412-1740"/>
+	        <link rel="stylesheet" type="text/css" href="/exam-ans/mooc2/css/notAllowCopy.css"/>
+    		<link rel="stylesheet" type="text/css" href="/exam-ans/spacx/exam/mooc2/css/do/exam-do.css?v=2022-0722-2100"/>
+	<link href="/exam-ans/spacx/new/css/msg-note-tpl.cssx?enc=156ad4d873553cf52168f89b49f82fed" rel="stylesheet" type="text/css"/>
+	    <link href="/exam-ans/css/questionBank/questionBankUsual.css?v=2019-1120-1400" type="text/css" rel="stylesheet"/></head>
+<script>
+	window["uid"] = '193730164';
+	window["currentTime"] = '1686486444663';
+	window["uploadEnc"] = '6194693a3dfc1505786f7e64d8107c8d';
+</script>
+<style>
+	.questionLi img{max-width:100%;}
+</style>
+<body onselectstart="return false" class="whiteBg">
+<script type="text/javascript" src="/exam-ans/js/common/jquery.min.js"></script>
+<script type="text/javascript" src="/exam-ans/js/common/jquery-migrate.min.js"></script><script type="text/javascript" charset="utf-8" src="/exam-ans/js/ServerHost.js?v=2020-1225-1627"></script>
+<script type="text/javascript" charset="utf-8" src="/exam-ans/mooc2/js/editor/ueditor.config.js?v=2023-0217-1450"></script>
+<script type="text/javascript" charset="utf-8" src="/exam-ans/mooc2/js/editor/ueditor.all.min.js?v=2023-0517-1840"></script>
+<script>
+    function getcookie(objname){
+    	var arrstr = document.cookie.split("; ");
+    	for(var i = 0;i < arrstr.length;i ++){
+    		var temp = arrstr[i].split("=");
+    		if(temp[0] == objname){ 
+    			return unescape(temp[1]);
+    		}
+    	}
+    }
+	window["uid"] = '193730164';
+	window["currentTime"] = '1686486444663';
+	window["uploadEnc"] = '6194693a3dfc1505786f7e64d8107c8d';
+	window.UEDITOR_CONFIG.forbidDownload = '';
+	window.UEDITOR_CONFIG.scaleEnabled = false;
+	window.UEDITOR_CONFIG.imageUrl = ServerHost.uploadDomain + "/ueditorupload/upload";
+	window.UEDITOR_CONFIG.fileUrl = ServerHost.uploadDomain + "/ueditorupload/attachment";
+	window.UEDITOR_CONFIG.lang = 'zh-cn';
+	window.fycourseDomain = "mobile3.chaoxing.com";
+</script><script type="text/javascript" charset="utf-8">
+    if('0' == 0){
+        window.UEDITOR_CONFIG.disableDraggable = true;
+        window.UEDITOR_CONFIG.disablePasteImage = true;
+    }
+	
+	
+     
+     
+	</script>
+	<script type="text/javascript">
+    I18N = {
+        "confirmSub": "确认交卷？",
+        "subFailed": "提交失败",
+        "subSucc": "提交成功",
+        "worksubmitTips1": "您还有未做完的",
+        "worksubmitTips2": "，确认提交吗？",
+        "notLeaveTip1": "系统检测到你于",
+        "notLeaveTip2": "离开考试，请不要中途离开。",
+        'recording': '录制中',
+        'start2': '开始',
+        'faceInDiv': '请保持光线良好，面对镜头眨眨眼，保证人脸在识别框内',
+        'feedbackEmpty': '问题反馈不能为空',
+        'nocamera': '未检测到您的摄像头，请确认开启摄像头权限',
+        'dectShareScreen': '检测到您未能开启截屏权限，请重新检测，点击"截屏授权"，在浏览器弹窗中共享"整个屏幕',
+        'feedbackSuccess': '反馈成功',
+        'liveAccount' : '直播账号',
+        'passwordI18N' : '密码',
+        'archivePhoto' : '档案照片',
+        'noArchivePhoto' : '暂无档案照片'
+    };
+</script><script type="text/javascript" src="/exam-ans/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/selectBox.js?v=2021-0629-1508"></script>
+<script type="text/javascript" src="/exam-ans/js/phone/textareaHeightAuto.js"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/poptoast.js?v=2023-0201-1903"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/poplayout.js"></script>
+<script type="text/javascript" src="/exam-ans/js/exam/phone/date.js"></script>
+<script type="text/javascript" src="/exam-ans/js/jquery.jqote2.min.js"></script>
+<script type="text/javascript" src="/exam-ans/js/richvideoedit/json2.js"></script>
+<script src="/ananas/space/exam/js/enc_js_exam.js?v=1686486444666"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/exam/stu-preview-exam.js?v=2023-0525-2000"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/exam/stu-exam-share.js?v=2023-0512-1512"></script>
+<script type="text/javascript" src="/exam-ans/mooc2/js/exam/stu-exam-view.js?v=2020-1223-1701"></script>
+<script type="text/javascript">window.SUPPORT_AUDIO_SETTING = true; window.SUPPORT_AUDIO_CONTROL = true; window.Forbid_Attachment_Title = '0';</script>
+<div class="subNav">
+				<a href="javascript:;" onclick="backList('205926329','72521498','3499060','96639012','193e8fa103d1cc5300f354ec3d018adf','199759591','9da12f5b8fc1ddc30c0686399b447741')" class="subBack  fl"><i class="icon-BackIcon"></i>返回</a>
+					<div class="sub-button fr">
+				<a href="javascript:;" class="completeBtn fl" onclick="finalSubmit();">交卷</a>
+			</div>
+		考试预览</div><div class="het40"></div>
+<input type="hidden" id="qbanksystem" name="qbanksystem" value="0"/>
+<input type="hidden" id="qbankbackurl" name="qbankbackurl" value=""/>
+<input type="hidden" id="openc" value="9da12f5b8fc1ddc30c0686399b447741"/>
+<input type="hidden" id="uploadTimeStamp" value="1686486444663" />
+<input type="hidden" id="uploadEnc" value="6194693a3dfc1505786f7e64d8107c8d" />
+<input type="hidden" id="uploadtype" value="exam" />
+<input type="hidden" id="randomOptions" name="randomOptions" value="true"/>
+<input type="hidden"  id="blankobj" name="blankobj" value="1"/>
+<input type="hidden" id="answerMode" name="answerMode" value="1"/>
+<input type="hidden" id="switchScreenControl" name="switchScreenControl" value="0"/>
+<input type="hidden" id="snapshotMonitor" name="snapshotMonitor" value="0"/>
+<input type="hidden" id="pcclientSwitchout" name="pcclientSwitchout" value="0"/>
+<input type="hidden" id="saveUrl" name="saveUrl" value="/exam-ans/exam/test/preview-save"/>
+<input type="hidden" id="monitorEnc" name="monitorEnc" value="19ff45de9b2dd23ce6aa37f59b4860cc"/>
+<input type="hidden" id="allowPaste" value="0"/>
+<input type="hidden" id="allowDownloadAttachment" value="1"/>
+
+<input type="hidden" id="workExamUploadUrl" name="workExamUploadUrl" value=""/>
+<input type="hidden" id="workExamUploadCrcUrl" name="workExamUploadCrcUrl" value=""/>
+
+<input type="hidden" id="snapshotIntervalMin" value=""/>
+<input type="hidden" id="snapshotIntervalMax" value=""/>
+
+<input type="hidden" id="ExamWaterMark" value="胡振鹏2021310040111"/>
+
+<input type="hidden" id="isChaoxingExamPc" value=""/>
+<input type="hidden" id="webSnapshotMonitor" value="0"/>
+<input type="hidden" id="faceimgs" value=""/>
+<input type="hidden" id="screenAbnormalNumberLimit" value="0"/>
+<input type="hidden" id="switchScreenNumberLimit" name="switchScreenNumberLimit" value="0"/>
+<input type="hidden" id="switchScreenDurationLimit" name="switchScreenDurationLimit" value="0"/>
+<input type="hidden" id="switchScreenThresholdTime" value="0"/>	
+<input type="hidden" id="monitorStatus" name="monitorStatus" value="0"/>
+<input type="hidden" id="monitorOp" name="monitorOp" value="-1"/>
+<input type="hidden" id="exitCount"  value="0"/>
+<input type="hidden" id="exitDuration" value="0"/>
+<input id="lastStart" value="1"/>
+<input type="hidden" id="screenAndCaptureCall" value="-1"/>
+<input type="hidden" id="xiaMenUniversity" value=""/>
+<input type="hidden" id="liveMonitor" name="liveMonitor" value="0"/>
+
+<form id="submitTest" action="/exam-ans/exam/test/reVersionSubmitTestNew?classId=72521498&courseId=205926329&testPaperId=3499060&testUserRelationId=96639012&cpi=199759591" method="post">
+	<input type="hidden" id="courseId" name="courseId" value="205926329"/>
+	<input type="hidden" id="testPaperId" name="testPaperId" value="3499060"/>
+	<input type="hidden" id="examCreateUserId" name="examCreateUserId" value="89463312"/>
+	<input type="hidden" id="feedbackEnc" name="feedbackEnc" value=""/>
+	<input type="hidden" id="testUserRelationId" name="testUserRelationId" value="96639012"/>
+	<input type="hidden" id="classId" name="classId" value="72521498"/>
+	<input type="hidden" id="type" name="type" value="0"/>
+	<input type="hidden" id="remainTime" name="remainTime" value="0"/>
+	<input type="hidden" id="tempSave" name="tempSave" value="false"/>
+	<input type="hidden" id="timeOver" name="timeOver" value="false"/>
+	<input type="hidden" id="encRemainTime" name="encRemainTime" value="3915"/>
+	<input type="hidden" id="encLastUpdateTime" name="encLastUpdateTime" value="1686484488310"/>
+	<input type="hidden" id="enc" name="enc" value="2b300b20112a621dd752353b8b81dc36"/>
+	<input type="hidden" id="userId" name="userId" value="193730164"/>
+	<input type="hidden" id="cpi" name="cpi" value="199759591"/>
+		<input type="hidden" id="examRelationId" name="examRelationId" value="3499060"/>
+    <input type="hidden" name="enterPageTime" id="enterPageTime" value="1686486444663"/>
+	<input type="hidden" id="exitdtime" name="exitdtime" value="0"/>
+	<input type="hidden" name="monitorforcesubmit" id="monitorforcesubmit" value="0"/>
+</form>
+
+<div class="FullfanyaMarking TiMu" id="fanyaMarking">
+
+		
+		
+		
+		<div class="marking_left_280">
+		<div class="padlr24">
+			<h2 class="h2_subject">单元检测</h2>
+			<div class="mark_timeDiv"><i><img src="/exam-ans/mooc2/images/time_orange.png" class="no_view"></i><span id="timer">&nbsp;</span></div>
+			<dl class="mark_dl">
+								<dd>
+					<p>姓名: 胡振鹏</p>
+					<p>学号: 2021310040111</p>
+				</dd>
+			</dl>
+			<div class="mark_info">
+				<p>题量:   34 </p>				 <p>满分: 100.0</p>				<p>考试时间: 2023-06-11 19:00  至  2023-06-11 21:00</p>
+			</div>
+            <!--------直播账号提示--------->
+					</div>
+		
+		<div style="display:none;">
+			<video id="screenCapture_video"></video>
+			<canvas id="screenCapture_canvas"></canvas>
+		    <img id="screenCapture_photo" class="no_view"/>
+		</div>	
+		
+		
+				
+	</div>
+
+		<div class="marking_content ans-cc">
+	
+		
+																																																			
+							<div class="mark_table">
+								<div class="whiteDiv">
+									<h2 class="type_tit">一. 单选题 （共30题，60.0分） </h2>
+																																							<div id="sigleQuestionDiv_882918377" class="questionLi scroll_882918377 singleQuesId" data="882918377">
+											                            															 <h3 class="mark_name colorDeep">1. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>采用DMA方式传送数据时，每传送一个数据要占用（）的时间。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918377" value="0"/>
+												<input type="hidden" name="questionId" value="882918377"/>
+												<input type="hidden" name="typeName882918377" value="单选题"/>
+												 												 <input type="hidden" name="start" value="0" />
+																									<input type="hidden" id="answer882918377" name="answer882918377" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918377');" >
+            <span data="B" qid="882918377" class="saveSingleSelect choice882918377 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="color: rgb(51, 51, 51); font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif, SimHei, SimSun; font-size: 14px;  background-color: rgb(255, 255, 255);">一个机器周期</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918377');" >
+            <span data="D" qid="882918377" class="saveSingleSelect choice882918377 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="color: rgb(51, 51, 51); font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif, SimHei, SimSun; font-size: 14px;  background-color: rgb(255, 255, 255);">一个时钟周期</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918377');" >
+            <span data="A" qid="882918377" class="saveSingleSelect choice882918377 num_option  fl">C</span>
+            <div class="fl answer_p"><p>一个指令周期</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918377');" >
+            <span data="C" qid="882918377" class="saveSingleSelect choice882918377 num_option  check_answer  fl">D</span>
+            <div class="fl answer_p"><p><span style="color: rgb(51, 51, 51); font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif, SimHei, SimSun; font-size: 14px;  background-color: rgb(255, 255, 255);">一个存储周期</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918369" class="questionLi scroll_882918369 singleQuesId" data="882918369">
+											                            															 <h3 class="mark_name colorDeep">2. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p style="margin-top:2px"><span style="text-indent: 21px;"></span></p>
+<p style="margin-top:2px"><span style="font-size:19px;font-family:宋体">[2019]</span><span style="font-size:19px;font-family:宋体">在采用”取指、译码/取数、执行、访存、写回”5段流水线的处理器中，执行如下指令序列,共中s0、s1、s2、s3和t2表示寄存器编号。</span></p>
+<p style="margin-top:2px;text-indent:21px;line-height:16px"><span style="font-size: 19px;font-family:宋体">I1</span><span style="font-size:19px;font-family:宋体">：add s2,s1, s0&nbsp;&nbsp;&nbsp; &nbsp;//R[s2] ⬅R[s1]+R[s0]</span></p>
+<p style="margin-top:2px;text-indent:21px;line-height:16px"><span style="font-size: 19px;font-family:宋体">I2: load s3, 0(t2)&nbsp;&nbsp; &nbsp;//R[s3M<span style="font-family: 宋体; font-size: 19px; text-indent: 21px;">] ⬅</span>[R[2]+0]</span></p>
+<p style="margin-top:2px;text-indent:21px;line-height:16px"><span style="font-size: 19px;font-family:宋体">I3</span><span style="font-size:19px;font-family:宋体">：add s2,s2, s3&nbsp;&nbsp; &nbsp;&nbsp;//R[s2]&nbsp;<span style="font-family: 宋体; font-size: 19px; text-indent: 21px;">⬅</span>R[s2]+R[s3]</span></p>
+<p style="margin-top:2px;text-indent:21px;line-height:16px"><span style=";position: absolute;z-index:251663360;left:0px;margin-left:516px;margin-top:113px;width:40px;height:22px"></span><span style="font-size: 19px;font-family:宋体">I4</span><span style="font-size:19px;font-family:宋体">：store s2, 0(t2)&nbsp;&nbsp; //M[R[t2]+0]&nbsp;<span style="font-family: 宋体; font-size: 19px; text-indent: 21px;">⬅</span>R[s2]</span></p>
+<p style="margin-top:2px;text-indent:21px"><span style="font-size:19px;font-family:宋体">下列指令对中，不存在数据冒险的是____________。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918369" value="0"/>
+												<input type="hidden" name="questionId" value="882918369"/>
+												<input type="hidden" name="typeName882918369" value="单选题"/>
+												 												 <input type="hidden" name="start" value="1" />
+																									<input type="hidden" id="answer882918369" name="answer882918369" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918369');" >
+            <span data="B" qid="882918369" class="saveSingleSelect choice882918369 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">B.I2</span><span style="font-size:19px;font-family:宋体">和I3</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918369');" >
+            <span data="A" qid="882918369" class="saveSingleSelect choice882918369 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">A.I1</span><span style="font-size:19px;font-family:宋体">和I3</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918369');" >
+            <span data="C" qid="882918369" class="saveSingleSelect choice882918369 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size: 19px;font-family: 宋体">C.I2</span><span style="font-size: 19px;font-family: 宋体">和14</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918369');" >
+            <span data="D" qid="882918369" class="saveSingleSelect choice882918369 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">D.I3</span><span style="font-size:19px;font-family:宋体">和I4</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918373" class="questionLi scroll_882918373 singleQuesId" data="882918373">
+											                            															 <h3 class="mark_name colorDeep">3. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 等线">[2016]</span><span style="font-size:19px;font-family:等线">某计算机主存空间为4GB，字长为32位，按字节编址，采用32位定长指令字格式。若指令按字边界对齐存放，则程序计数器（PC）和指令寄存器（IR）的位数至少分别是（）。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918373" value="0"/>
+												<input type="hidden" name="questionId" value="882918373"/>
+												<input type="hidden" name="typeName882918373" value="单选题"/>
+												 												 <input type="hidden" name="start" value="2" />
+																									<input type="hidden" id="answer882918373" name="answer882918373" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918373');" >
+            <span data="D" qid="882918373" class="saveSingleSelect choice882918373 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">D.30</span><span style="font-size:19px">、30</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918373');" >
+            <span data="B" qid="882918373" class="saveSingleSelect choice882918373 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;color:red"></span></p>
+<p><span style="font-size:19px;color:black"></span></p>
+<p><span style="font-size:19px;color:black">B.30</span><span style="font-size: 19px;color:black">、32</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918373');" >
+            <span data="C" qid="882918373" class="saveSingleSelect choice882918373 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">C.32</span><span style="font-size:19px">、30</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918373');" >
+            <span data="A" qid="882918373" class="saveSingleSelect choice882918373 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">A.32</span><span style="font-size:19px">、32</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918367" class="questionLi scroll_882918367 singleQuesId" data="882918367">
+											                            															 <h3 class="mark_name colorDeep">4. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p style="margin-top:2px"><span style="font-size:19px;font-family:宋体">[2013]</span><span style="font-size:19px;font-family:宋体">某CPU主频为1.03GHz，采用4级指令流水线，每个流水段的执行需要1个时钟周期。假定CPU执行了100条指令，在其执行过程中，没有发生任何流水线阻塞，此时流水线的吞吐率为__________。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918367" value="0"/>
+												<input type="hidden" name="questionId" value="882918367"/>
+												<input type="hidden" name="typeName882918367" value="单选题"/>
+												 												 <input type="hidden" name="start" value="3" />
+																									<input type="hidden" id="answer882918367" name="answer882918367" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918367');" >
+            <span data="A" qid="882918367" class="saveSingleSelect choice882918367 num_option  fl">A</span>
+            <div class="fl answer_p"><p style="margin-top:2px;margin-right:0;margin-bottom:0;margin-left:21px;margin-bottom:0"><span style="font-size:19px;font-family:宋体">A.0.25x10^9</span><span style="font-size:19px;font-family:宋体">条指令/秒</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918367');" >
+            <span data="D" qid="882918367" class="saveSingleSelect choice882918367 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="margin-top:2px;text-indent:21px"><span style="font-size:19px;font-family:宋体">D.1.03x10^9</span><span style="font-size:19px;font-family:宋体">条指令/秒</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918367');" >
+            <span data="C" qid="882918367" class="saveSingleSelect choice882918367 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p style="margin-top:2px;text-indent:19px"><span style="font-size:19px;font-family:宋体;color:black">C.1.0x10^9</span><span style="font-size:19px;font-family:宋体;color:black">条指令/秒</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918367');" >
+            <span data="B" qid="882918367" class="saveSingleSelect choice882918367 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="margin-top:2px;text-indent:19px"><span style="font-size:19px;font-family: 宋体">B.0.97x10^9</span><span style="font-size:19px;font-family:宋体">条指令/秒</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918371" class="questionLi scroll_882918371 singleQuesId" data="882918371">
+											                            															 <h3 class="mark_name colorDeep">5. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p style="text-align:left"><span style="font-size:19px;font-family:宋体">[2017]</span><span style="font-size:19px;font-family:宋体">下列关于超标量流水线特性的叙述中，正确的是_____________。</span></p>
+<p style="text-align:left;text-indent:9px"><span style="font-size:19px;font-family:宋体">1</span><span style="font-size:19px;font-family:宋体">，能缩短流水线功能段的处理时间</span></p>
+<p style="text-align:left;text-indent:10px"><span style="font-size:19px;font-family:宋体">2</span><span style="font-size:19px;font-family:宋体">，能在一个时钟周期内同时发射多条指令</span></p>
+<p style="text-align:left;text-indent:10px"><span style="font-size:19px;font-family:宋体">3</span><span style="font-size:19px;font-family:宋体">，能结合动态调度技术提高指令执行并行性C仅I、D.I、I和加</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918371" value="0"/>
+												<input type="hidden" name="questionId" value="882918371"/>
+												<input type="hidden" name="typeName882918371" value="单选题"/>
+												 												 <input type="hidden" name="start" value="4" />
+																									<input type="hidden" id="answer882918371" name="answer882918371" value="C"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918371');" >
+            <span data="C" qid="882918371" class="saveSingleSelect choice882918371 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size: 19px;font-family: 宋体">C. 2,3</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918371');" >
+            <span data="D" qid="882918371" class="saveSingleSelect choice882918371 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">D. 1,2</span><span style="font-size:19px;font-family:宋体">和3</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918371');" >
+            <span data="A" qid="882918371" class="saveSingleSelect choice882918371 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">A</span><span style="font-size:19px;font-family:宋体">．仅2</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918371');" >
+            <span data="B" qid="882918371" class="saveSingleSelect choice882918371 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">B. </span><span style="font-size:19px;font-family:宋体">仅1,3</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918382" class="questionLi scroll_882918382 singleQuesId" data="882918382">
+											                            															 <h3 class="mark_name colorDeep">6. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>假设某系统总线在一个总线周期中并行传输8字节信息，一个总线周期占用4个时钟周期，总线时钟频率为20MHz，则总线带宽是() 。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918382" value="0"/>
+												<input type="hidden" name="questionId" value="882918382"/>
+												<input type="hidden" name="typeName882918382" value="单选题"/>
+												 												 <input type="hidden" name="start" value="5" />
+																									<input type="hidden" id="answer882918382" name="answer882918382" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918382');" >
+            <span data="B" qid="882918382" class="saveSingleSelect choice882918382 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p>20MB/s</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918382');" >
+            <span data="C" qid="882918382" class="saveSingleSelect choice882918382 num_option  fl">B</span>
+            <div class="fl answer_p"><p>40MB/s</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918382');" >
+            <span data="D" qid="882918382" class="saveSingleSelect choice882918382 num_option  fl">C</span>
+            <div class="fl answer_p"><p>80MB/s</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918382');" >
+            <span data="A" qid="882918382" class="saveSingleSelect choice882918382 num_option  fl">D</span>
+            <div class="fl answer_p"><p>10MB/s</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918363" class="questionLi scroll_882918363 singleQuesId" data="882918363">
+											                            															 <h3 class="mark_name colorDeep">7. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family:宋体">[2009]</span><span style="font-size:19px;font-family:宋体">假设某系统总线在一个周期中并行传输4字节信息，一个总线周期占用两个时钟周期，总线时钟频率为10MHz，则总线带宽是<span style="text-decoration:underline;">&nbsp;&nbsp;&nbsp; </span>。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918363" value="0"/>
+												<input type="hidden" name="questionId" value="882918363"/>
+												<input type="hidden" name="typeName882918363" value="单选题"/>
+												 												 <input type="hidden" name="start" value="6" />
+																									<input type="hidden" id="answer882918363" name="answer882918363" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918363');" >
+            <span data="D" qid="882918363" class="saveSingleSelect choice882918363 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px; text-indent: 19px;">&nbsp; &nbsp;80MB/s</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918363');" >
+            <span data="A" qid="882918363" class="saveSingleSelect choice882918363 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="text-indent:19px"><span style="font-size:19px;font-family:宋体">10MB/s&nbsp; &nbsp;</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918363');" >
+            <span data="B" qid="882918363" class="saveSingleSelect choice882918363 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p style="text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">20MB/s&nbsp; &nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918363');" >
+            <span data="C" qid="882918363" class="saveSingleSelect choice882918363 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px; text-indent: 19px;">&nbsp; 40MB/s&nbsp;&nbsp;</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918366" class="questionLi scroll_882918366 singleQuesId" data="882918366">
+											                            															 <h3 class="mark_name colorDeep">8. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family:宋体">[2018]</span><span style="font-size:19px;font-family:宋体">下列选项中，可提高同步总线数据传输速率的是<span style="text-decoration:underline;">&nbsp;&nbsp;&nbsp; </span>。</span></p>
+<p style="text-indent:19px"><span style="font-size:19px;font-family:宋体">Ⅰ.增加总线宽度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ⅱ.提高总线工作频率</span></p>
+<p style="text-indent:19px"><span style="font-size:19px;font-family:宋体">Ⅲ.支持突发传输&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ⅳ.采用地址/数据线复用方式</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918366" value="0"/>
+												<input type="hidden" name="questionId" value="882918366"/>
+												<input type="hidden" name="typeName882918366" value="单选题"/>
+												 												 <input type="hidden" name="start" value="7" />
+																									<input type="hidden" id="answer882918366" name="answer882918366" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918366');" >
+            <span data="B" qid="882918366" class="saveSingleSelect choice882918366 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">仅Ⅰ、Ⅱ、Ⅲ</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918366');" >
+            <span data="A" qid="882918366" class="saveSingleSelect choice882918366 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">仅Ⅰ、Ⅱ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918366');" >
+            <span data="C" qid="882918366" class="saveSingleSelect choice882918366 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="text-indent: 19px;  font-size: 19px; font-family: 宋体;">&nbsp; 仅Ⅲ、Ⅳ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918366');" >
+            <span data="D" qid="882918366" class="saveSingleSelect choice882918366 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px; text-indent: 19px;">&nbsp; Ⅰ、Ⅱ、Ⅲ和Ⅳ</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918357" class="questionLi scroll_882918357 singleQuesId" data="882918357">
+											                            															 <h3 class="mark_name colorDeep">9. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2017]I/O指令实现的数据传送通常发生在_______。&nbsp; &nbsp;&nbsp;</p>
+<p><br></p>
+<p><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918357" value="0"/>
+												<input type="hidden" name="questionId" value="882918357"/>
+												<input type="hidden" name="typeName882918357" value="单选题"/>
+												 												 <input type="hidden" name="start" value="8" />
+																									<input type="hidden" id="answer882918357" name="answer882918357" value="D"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918357');" >
+            <span data="D" qid="882918357" class="saveSingleSelect choice882918357 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal;">通用寄存器和I/O端口之间<br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918357');" >
+            <span data="A" qid="882918357" class="saveSingleSelect choice882918357 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal;">I/O设备和I/O端口之间&nbsp;</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918357');" >
+            <span data="B" qid="882918357" class="saveSingleSelect choice882918357 num_option  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal;">通用寄存器和I/O设备之间&nbsp;</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918357');" >
+            <span data="C" qid="882918357" class="saveSingleSelect choice882918357 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal;">I/O端口和I/O端口之间&nbsp;<br></p>
+<p><br></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918368" class="questionLi scroll_882918368 singleQuesId" data="882918368">
+											                            															 <h3 class="mark_name colorDeep">10. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 宋体">[2018]</span><span style="font-size:19px;font-family:宋体">若某计算机最复杂指令的执行需要完成5个子功能，分别由功能部件A~E实现，各功能部件所需时间分别为80ps、50ps、50ps、70ps和50ps，采用流水线方式执行指令，流水段寄存器延迟时间为20ps，则CPU时钟周期至少为__________。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918368" value="0"/>
+												<input type="hidden" name="questionId" value="882918368"/>
+												<input type="hidden" name="typeName882918368" value="单选题"/>
+												 												 <input type="hidden" name="start" value="9" />
+																									<input type="hidden" id="answer882918368" name="answer882918368" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918368');" >
+            <span data="C" qid="882918368" class="saveSingleSelect choice882918368 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">C.80ps</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918368');" >
+            <span data="B" qid="882918368" class="saveSingleSelect choice882918368 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">B.70ps</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918368');" >
+            <span data="D" qid="882918368" class="saveSingleSelect choice882918368 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p style="margin-top:2px;text-indent:19px"><span style="font-size: 19px;font-family: 宋体">D.100ps</span></p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918368');" >
+            <span data="A" qid="882918368" class="saveSingleSelect choice882918368 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">A.60ps</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918365" class="questionLi scroll_882918365 singleQuesId" data="882918365">
+											                            															 <h3 class="mark_name colorDeep">11. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family:宋体">[2017]</span><span style="font-size:19px;font-family:宋体">下列有关总线定时的叙述中，错误的是<span style="text-decoration:underline;">&nbsp;&nbsp;&nbsp; </span>。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918365" value="0"/>
+												<input type="hidden" name="questionId" value="882918365"/>
+												<input type="hidden" name="typeName882918365" value="单选题"/>
+												 												 <input type="hidden" name="start" value="10" />
+																									<input type="hidden" id="answer882918365" name="answer882918365" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918365');" >
+            <span data="D" qid="882918365" class="saveSingleSelect choice882918365 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size: 19px; font-family: 宋体;">半同步通信方式中，握手信号的采样由同步时钟控制&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918365');" >
+            <span data="A" qid="882918365" class="saveSingleSelect choice882918365 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">异步通信方式中，全互锁方式最慢</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918365');" >
+            <span data="C" qid="882918365" class="saveSingleSelect choice882918365 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">同步通信方式中，同步时钟信号可由多设备提供</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918365');" >
+            <span data="B" qid="882918365" class="saveSingleSelect choice882918365 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">异步通信方式中，非互锁方式的可靠性最差</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918370" class="questionLi scroll_882918370 singleQuesId" data="882918370">
+											                            															 <h3 class="mark_name colorDeep">12. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 宋体"></span></p>
+<p style="margin-top:2px"><span style="font-size:19px;font-family:宋体">[2011]</span><span style="font-size:19px;font-family:宋体">下列给出的指令系统特点中，有利于实现指令流水线的是_____________。</span></p>
+<p style="margin-top:2px;text-indent:37px"><span style="font-size:19px;font-family:宋体">1</span><span style="font-size:19px;font-family: 宋体">，指令格式规整且长度一致&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p style="margin-top:2px;text-indent:37px"><span style="font-size:19px;font-family:宋体">2</span><span style="font-size:19px;font-family: 宋体">，指令和数据按边界对齐存放</span></p>
+<p style="margin-top:2px;text-indent:37px"><span style="font-size: 19px; font-family: 宋体;">3</span><span style="font-size: 19px; font-family: 宋体;">，只有LoadStore指令才能对操作数进行存储访问</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918370" value="0"/>
+												<input type="hidden" name="questionId" value="882918370"/>
+												<input type="hidden" name="typeName882918370" value="单选题"/>
+												 												 <input type="hidden" name="start" value="11" />
+																									<input type="hidden" id="answer882918370" name="answer882918370" value="D"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918370');" >
+            <span data="D" qid="882918370" class="saveSingleSelect choice882918370 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size: 19px; font-family: 宋体;"><span style="font-size: 19px;font-family: 宋体">D.1,2,3</span>&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918370');" >
+            <span data="A" qid="882918370" class="saveSingleSelect choice882918370 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">A.</span><span style="font-size:19px;font-family:宋体">仅1,2&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918370');" >
+            <span data="C" qid="882918370" class="saveSingleSelect choice882918370 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">C.</span><span style="font-size:19px;font-family:宋体">仅1,3&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918370');" >
+            <span data="B" qid="882918370" class="saveSingleSelect choice882918370 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family: 宋体">B.</span><span style="font-size:19px;font-family:宋体">仅2,3</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918374" class="questionLi scroll_882918374 singleQuesId" data="882918374">
+											                            															 <h3 class="mark_name colorDeep">13. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 等线">[2016]</span><span style="font-size:19px;font-family:等线">单周期处理器中所有指令的指令周期为一个时钟周期。下列关于单周期处理器的叙述中，错误的是_____。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918374" value="0"/>
+												<input type="hidden" name="questionId" value="882918374"/>
+												<input type="hidden" name="typeName882918374" value="单选题"/>
+												 												 <input type="hidden" name="start" value="12" />
+																									<input type="hidden" id="answer882918374" name="answer882918374" value="A"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918374');" >
+            <span data="B" qid="882918374" class="saveSingleSelect choice882918374 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">B.</span><span style="font-size:19px">在指令执行过程中控制信号不变</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918374');" >
+            <span data="D" qid="882918374" class="saveSingleSelect choice882918374 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">D.</span><span style="font-size:19px">每条指令的CPI为1</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918374');" >
+            <span data="A" qid="882918374" class="saveSingleSelect choice882918374 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;color:black">A.</span><span style="font-size:19px;color:black">可以采用单总线结构数据通路</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918374');" >
+            <span data="C" qid="882918374" class="saveSingleSelect choice882918374 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">C.</span><span style="font-size:19px">处理器时钟频率较低</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918384" class="questionLi scroll_882918384 singleQuesId" data="882918384">
+											                            															 <h3 class="mark_name colorDeep">14. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>流水机器对全局性相关的处理不包括（）？</p></div></h3> 											<form>
+												<input type="hidden" name="type882918384" value="0"/>
+												<input type="hidden" name="questionId" value="882918384"/>
+												<input type="hidden" name="typeName882918384" value="单选题"/>
+												 												 <input type="hidden" name="start" value="13" />
+																									<input type="hidden" id="answer882918384" name="answer882918384" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918384');" >
+            <span data="B" qid="882918384" class="saveSingleSelect choice882918384 num_option  fl">A</span>
+            <div class="fl answer_p"><p>提前形成条件码</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918384');" >
+            <span data="D" qid="882918384" class="saveSingleSelect choice882918384 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p>设置相关专用通路</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918384');" >
+            <span data="A" qid="882918384" class="saveSingleSelect choice882918384 num_option  fl">C</span>
+            <div class="fl answer_p"><p>猜测法</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918384');" >
+            <span data="C" qid="882918384" class="saveSingleSelect choice882918384 num_option  fl">D</span>
+            <div class="fl answer_p"><p>加快短循环程序的执行</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918378" class="questionLi scroll_882918378 singleQuesId" data="882918378">
+											                            															 <h3 class="mark_name colorDeep">15. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">单级中断系统中，中断服务程序执行顺序是（）</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">I保护现场</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">II开中断</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">III关中断</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">IV保存断点</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">V中断事件处理</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">VI恢复现场</span><br style="white-space: normal; box-sizing: border-box; font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);"/><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">VII中断返回</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918378" value="0"/>
+												<input type="hidden" name="questionId" value="882918378"/>
+												<input type="hidden" name="typeName882918378" value="单选题"/>
+												 												 <input type="hidden" name="start" value="14" />
+																									<input type="hidden" id="answer882918378" name="answer882918378" value="A"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918378');" >
+            <span data="D" qid="882918378" class="saveSingleSelect choice882918378 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">IV-&gt;I-&gt;V-&gt;VI-&gt;VII</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918378');" >
+            <span data="A" qid="882918378" class="saveSingleSelect choice882918378 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">I-&gt;V-&gt;VI-&gt;II-&gt;VII</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918378');" >
+            <span data="B" qid="882918378" class="saveSingleSelect choice882918378 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">III-&gt;I-&gt;V-&gt;VII</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918378');" >
+            <span data="C" qid="882918378" class="saveSingleSelect choice882918378 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">III-&gt;IV-&gt;V-&gt;VI-&gt;VII</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918358" class="questionLi scroll_882918358 singleQuesId" data="882918358">
+											                            															 <h3 class="mark_name colorDeep">16. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2009]单级中断系统中，中断服务程序内部的执行顺序是_______。</p>
+<p style="white-space: normal;">I．保护现场&nbsp; II．开中断&nbsp; &nbsp;III．关中断&nbsp; IV．保存断点&nbsp;</p>
+<p style="white-space: normal;">IV．中断事件处理 VI．恢复现场&nbsp; VII．中断返回</p>
+<p style="white-space: normal;"><br></p>
+<p><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918358" value="0"/>
+												<input type="hidden" name="questionId" value="882918358"/>
+												<input type="hidden" name="typeName882918358" value="单选题"/>
+												 												 <input type="hidden" name="start" value="15" />
+																									<input type="hidden" id="answer882918358" name="answer882918358" value="A"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918358');" >
+            <span data="B" qid="882918358" class="saveSingleSelect choice882918358 num_option  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal;">III→I→V→VII&nbsp;</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918358');" >
+            <span data="C" qid="882918358" class="saveSingleSelect choice882918358 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal;">III→IV→V→VI→VII</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918358');" >
+            <span data="A" qid="882918358" class="saveSingleSelect choice882918358 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal;">I→V→VI→II→VII</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918358');" >
+            <span data="D" qid="882918358" class="saveSingleSelect choice882918358 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal;">IV→I→V→VI→VII<br></p>
+<p><br></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918381" class="questionLi scroll_882918381 singleQuesId" data="882918381">
+											                            															 <h3 class="mark_name colorDeep">17. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>假设某系统总线在一个总线周期中并行传输8字节信息，一个总线周期占用4个时钟周期，总线时钟频率为10MHz，则总线带宽是（）。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918381" value="0"/>
+												<input type="hidden" name="questionId" value="882918381"/>
+												<input type="hidden" name="typeName882918381" value="单选题"/>
+												 												 <input type="hidden" name="start" value="16" />
+																									<input type="hidden" id="answer882918381" name="answer882918381" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918381');" >
+            <span data="D" qid="882918381" class="saveSingleSelect choice882918381 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif;  background-color: rgb(255, 255, 255);">40MB/s</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918381');" >
+            <span data="C" qid="882918381" class="saveSingleSelect choice882918381 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif;  background-color: rgb(255, 255, 255);">30MB/s</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918381');" >
+            <span data="A" qid="882918381" class="saveSingleSelect choice882918381 num_option  fl">C</span>
+            <div class="fl answer_p"><p>10MB/s</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918381');" >
+            <span data="B" qid="882918381" class="saveSingleSelect choice882918381 num_option  check_answer  fl">D</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif;  background-color: rgb(255, 255, 255);">20MB/s</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918375" class="questionLi scroll_882918375 singleQuesId" data="882918375">
+											                            															 <h3 class="mark_name colorDeep">18. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 等线">[2009]</span><span style="font-size:19px;font-family:等线">相对于微程序控制器，硬布线控制硬布线控制_____。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918375" value="0"/>
+												<input type="hidden" name="questionId" value="882918375"/>
+												<input type="hidden" name="typeName882918375" value="单选题"/>
+												 												 <input type="hidden" name="start" value="17" />
+																									<input type="hidden" id="answer882918375" name="answer882918375" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918375');" >
+            <span data="A" qid="882918375" class="saveSingleSelect choice882918375 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">A.</span><span style="font-size:19px">指令执行速度慢，指令功能的修改和扩展容易</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918375');" >
+            <span data="C" qid="882918375" class="saveSingleSelect choice882918375 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">C.</span><span style="font-size:19px">指令执行速度快，指令功能的修改和扩展容易</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918375');" >
+            <span data="D" qid="882918375" class="saveSingleSelect choice882918375 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">D.</span><span style="font-size:19px">指令执行速度快，指令功能的修改和扩展难</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918375');" >
+            <span data="B" qid="882918375" class="saveSingleSelect choice882918375 num_option  check_answer  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;color:black"></span></p>
+<p><span style="font-size:19px;color:black">B.</span><span style="font-size:19px;color:black">指令执行速度慢指令功能的修改和扩展难</span></p>
+<p></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918376" class="questionLi scroll_882918376 singleQuesId" data="882918376">
+											                            															 <h3 class="mark_name colorDeep">19. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family: 等线">[2010]</span><span style="font-size:19px;font-family:等线">某计算机采用微程序控制器'共有32条指令'公共的取指令微程序包含两条微指指令对应的微程序平均由4条微指令组成，采用断定法（下址字段法）确定下条微指令地址，则微指令中下址字段的位数至少是<span style="text-decoration:underline;">__ __</span>。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918376" value="0"/>
+												<input type="hidden" name="questionId" value="882918376"/>
+												<input type="hidden" name="typeName882918376" value="单选题"/>
+												 												 <input type="hidden" name="start" value="18" />
+																									<input type="hidden" id="answer882918376" name="answer882918376" value="C"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918376');" >
+            <span data="C" qid="882918376" class="saveSingleSelect choice882918376 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;color:black">C.8</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918376');" >
+            <span data="A" qid="882918376" class="saveSingleSelect choice882918376 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">A.5</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918376');" >
+            <span data="D" qid="882918376" class="saveSingleSelect choice882918376 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">D.9</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918376');" >
+            <span data="B" qid="882918376" class="saveSingleSelect choice882918376 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px">B.6</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918379" class="questionLi scroll_882918379 singleQuesId" data="882918379">
+											                            															 <h3 class="mark_name colorDeep">20. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>某计算机有五级中断L4 ~ L0，中断屏蔽字为M4M3M2M1M0，Mi=1（0≤i≤4）表示对Li级中断进行屏蔽。若中断响应优先级从高到低的顺序是L0→L1→L2→L3→L4，且要求中断处理优先级从高到低的顺序为L4→L0→L1→L2→L3，则L1的中断处理程序中设置的中断屏蔽字是（）</p></div></h3> 											<form>
+												<input type="hidden" name="type882918379" value="0"/>
+												<input type="hidden" name="questionId" value="882918379"/>
+												<input type="hidden" name="typeName882918379" value="单选题"/>
+												 												 <input type="hidden" name="start" value="19" />
+																									<input type="hidden" id="answer882918379" name="answer882918379" value="C"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918379');" >
+            <span data="C" qid="882918379" class="saveSingleSelect choice882918379 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p>01110</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918379');" >
+            <span data="B" qid="882918379" class="saveSingleSelect choice882918379 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">01101</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918379');" >
+            <span data="A" qid="882918379" class="saveSingleSelect choice882918379 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">11110&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918379');" >
+            <span data="D" qid="882918379" class="saveSingleSelect choice882918379 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="color: rgb(77, 77, 77); font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">01010</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918362" class="questionLi scroll_882918362 singleQuesId" data="882918362">
+											                            															 <h3 class="mark_name colorDeep">21. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family:宋体">[2011]在系统总线的数据线上，不可能传输的是</span><span style="font-size: 19px; font-family: 宋体; text-decoration: none;">（）。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918362" value="0"/>
+												<input type="hidden" name="questionId" value="882918362"/>
+												<input type="hidden" name="typeName882918362" value="单选题"/>
+												 												 <input type="hidden" name="start" value="20" />
+																									<input type="hidden" id="answer882918362" name="answer882918362" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918362');" >
+            <span data="D" qid="882918362" class="saveSingleSelect choice882918362 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px;">中断类型号</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918362');" >
+            <span data="B" qid="882918362" class="saveSingleSelect choice882918362 num_option  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px;">操作数&nbsp; &nbsp;</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918362');" >
+            <span data="C" qid="882918362" class="saveSingleSelect choice882918362 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px;">握手（应答）信号&nbsp;&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918362');" >
+            <span data="A" qid="882918362" class="saveSingleSelect choice882918362 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-size:19px;font-family:宋体">指令&nbsp;&nbsp;</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918359" class="questionLi scroll_882918359 singleQuesId" data="882918359">
+											                            															 <h3 class="mark_name colorDeep">22. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2017]下列关于多重中断系统的叙述中，错误的是_______。&nbsp;</p>
+<p><br></p>
+<p><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918359" value="0"/>
+												<input type="hidden" name="questionId" value="882918359"/>
+												<input type="hidden" name="typeName882918359" value="单选题"/>
+												 												 <input type="hidden" name="start" value="21" />
+																									<input type="hidden" id="answer882918359" name="answer882918359" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918359');" >
+            <span data="A" qid="882918359" class="saveSingleSelect choice882918359 num_option  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal;">在一条指令执行结束时响应中断&nbsp;</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918359');" >
+            <span data="D" qid="882918359" class="saveSingleSelect choice882918359 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal;">CPU通过采样中断请求信号检测中断请求<br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918359');" >
+            <span data="C" qid="882918359" class="saveSingleSelect choice882918359 num_option  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal;">中断请求的产生与当前指令的执行无关&nbsp;<br></p>
+<p><br></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918359');" >
+            <span data="B" qid="882918359" class="saveSingleSelect choice882918359 num_option  check_answer  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal;">中断处理期间CPU处于关中断状态&nbsp;<br></p>
+<p><br></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918364" class="questionLi scroll_882918364 singleQuesId" data="882918364">
+											                            															 <h3 class="mark_name colorDeep">23. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px;font-family:宋体">[2014]</span><span style="font-size:19px;font-family:宋体">某同步总线采用数据线和地址线复用方式，其中地址/数据线有32条，总线时钟频率为66MHz，每个时钟周期传送两次数据（上跳沿和下跳沿各传送一次数据），该总线的最大数据传输速率（总线带宽）是<span style="text-decoration:underline;">&nbsp;&nbsp;&nbsp; </span>。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918364" value="0"/>
+												<input type="hidden" name="questionId" value="882918364"/>
+												<input type="hidden" name="typeName882918364" value="单选题"/>
+												 												 <input type="hidden" name="start" value="22" />
+																									<input type="hidden" id="answer882918364" name="answer882918364" value="C"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918364');" >
+            <span data="A" qid="882918364" class="saveSingleSelect choice882918364 num_option  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">132MB/s&nbsp; &nbsp;</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918364');" >
+            <span data="C" qid="882918364" class="saveSingleSelect choice882918364 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">528MB/s&nbsp; &nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918364');" >
+            <span data="B" qid="882918364" class="saveSingleSelect choice882918364 num_option  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal; text-indent: 19px;"><span style="font-size: 19px; font-family: 宋体;">264MB/s&nbsp; &nbsp;&nbsp;</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918364');" >
+            <span data="D" qid="882918364" class="saveSingleSelect choice882918364 num_option  fl">D</span>
+            <div class="fl answer_p"><p><span style="font-family: 宋体; font-size: 19px; text-indent: 19px;">&nbsp; 1056MB/s</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918356" class="questionLi scroll_882918356 singleQuesId" data="882918356">
+											                            															 <h3 class="mark_name colorDeep">24. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2012]下列选项中，在I/O总线的数据线上传输的信息包括_______。</p>
+<p>I．I/O接口中的命令字 II．I/O接口中的状态字 III中断类型号9</p></div></h3> 											<form>
+												<input type="hidden" name="type882918356" value="0"/>
+												<input type="hidden" name="questionId" value="882918356"/>
+												<input type="hidden" name="typeName882918356" value="单选题"/>
+												 												 <input type="hidden" name="start" value="23" />
+																									<input type="hidden" id="answer882918356" name="answer882918356" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918356');" >
+            <span data="A" qid="882918356" class="saveSingleSelect choice882918356 num_option  fl">A</span>
+            <div class="fl answer_p"><p>A．仅I、II&nbsp;</p>
+<p><br style="white-space: normal;"></p>
+<p><br></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918356');" >
+            <span data="D" qid="882918356" class="saveSingleSelect choice882918356 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p>D．I、II、III</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918356');" >
+            <span data="B" qid="882918356" class="saveSingleSelect choice882918356 num_option  fl">C</span>
+            <div class="fl answer_p"><p>B．仅I、III</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918356');" >
+            <span data="C" qid="882918356" class="saveSingleSelect choice882918356 num_option  fl">D</span>
+            <div class="fl answer_p"><p>C．仅II、III</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918360" class="questionLi scroll_882918360 singleQuesId" data="882918360">
+											                            															 <h3 class="mark_name colorDeep">25. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2018]下列关于外部I/O中断的叙述中，正确的是_______。</p>
+<p><br></p>
+<p><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918360" value="0"/>
+												<input type="hidden" name="questionId" value="882918360"/>
+												<input type="hidden" name="typeName882918360" value="单选题"/>
+												 												 <input type="hidden" name="start" value="24" />
+																									<input type="hidden" id="answer882918360" name="answer882918360" value="C"/>
+<div class="stem_answer">
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918360');" >
+            <span data="C" qid="882918360" class="saveSingleSelect choice882918360 num_option  check_answer  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal;">CPU只有在处于中断允许状态时，才能响应外部设备的中断请求<br></p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918360');" >
+            <span data="D" qid="882918360" class="saveSingleSelect choice882918360 num_option  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal;">有中断请求时，CPU立即暂停当前指令执行，转去执行中断服务程序。<br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918360');" >
+            <span data="B" qid="882918360" class="saveSingleSelect choice882918360 num_option  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal;">CPU响应中断时，通过执行中断隐指令完成通用寄存器的保护<br></p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918360');" >
+            <span data="A" qid="882918360" class="saveSingleSelect choice882918360 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal;">中断控制器按所接受中断请求的先后次序进行中断优先级排队</p>
+<p><br></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918380" class="questionLi scroll_882918380 singleQuesId" data="882918380">
+											                            															 <h3 class="mark_name colorDeep">26. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>下列关于中断 I/O 方式和 DMA方式比较的叙述中，错误 的是（）</p></div></h3> 											<form>
+												<input type="hidden" name="type882918380" value="0"/>
+												<input type="hidden" name="questionId" value="882918380"/>
+												<input type="hidden" name="typeName882918380" value="单选题"/>
+												 												 <input type="hidden" name="start" value="25" />
+																									<input type="hidden" id="answer882918380" name="answer882918380" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918380');" >
+            <span data="A" qid="882918380" class="saveSingleSelect choice882918380 num_option  fl">A</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">中断 I/O方式请求的是 CPU处理时间，DMA方式请求的是总线使用权&nbsp;</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918380');" >
+            <span data="D" qid="882918380" class="saveSingleSelect choice882918380 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">中断 I/O方式适用于所有外部设备，DMA方式仅适用于快速外部设备</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918380');" >
+            <span data="C" qid="882918380" class="saveSingleSelect choice882918380 num_option  fl">C</span>
+            <div class="fl answer_p"><p><span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">中断 I/O方式下数据传送通过软件完成，DMA方式下数据传送由硬件完成</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918380');" >
+            <span data="B" qid="882918380" class="saveSingleSelect choice882918380 num_option  fl">D</span>
+            <div class="fl answer_p"><p>中<span style="font-family: Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);">断响应发生在一条指令执行结束后，DMA响应发生在一个总线事务完成后</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918361" class="questionLi scroll_882918361 singleQuesId" data="882918361">
+											                            															 <h3 class="mark_name colorDeep">27. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>[2010]假定一台计算机的显示存储器用DRAM芯片实现，若要求显示分辨率为1600×1200，颜色深度为24位，帧频为85Hz，显存总带宽的50%用来刷新屏幕，则需要的显存总带宽至少约为_______。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918361" value="0"/>
+												<input type="hidden" name="questionId" value="882918361"/>
+												<input type="hidden" name="typeName882918361" value="单选题"/>
+												 												 <input type="hidden" name="start" value="26" />
+																									<input type="hidden" id="answer882918361" name="answer882918361" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918361');" >
+            <span data="B" qid="882918361" class="saveSingleSelect choice882918361 num_option  fl">A</span>
+            <div class="fl answer_p"><p>979Mb/s</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918361');" >
+            <span data="C" qid="882918361" class="saveSingleSelect choice882918361 num_option  fl">B</span>
+            <div class="fl answer_p"><p>1958Mb/s</p>
+<p><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918361');" >
+            <span data="A" qid="882918361" class="saveSingleSelect choice882918361 num_option  fl">C</span>
+            <div class="fl answer_p"><p>245Mb/s</p>
+<p><br style="white-space: normal;"></p>
+<p><br></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918361');" >
+            <span data="D" qid="882918361" class="saveSingleSelect choice882918361 num_option  check_answer  fl">D</span>
+            <div class="fl answer_p"><p>7834Mb/s</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918372" class="questionLi scroll_882918372 singleQuesId" data="882918372">
+											                            															 <h3 class="mark_name colorDeep">28. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p><span style="font-size:19px">[2010]</span><span style="font-size:19px">下列寄存器中，汇编语言程序员可见的是_____。</span></p></div></h3> 											<form>
+												<input type="hidden" name="type882918372" value="0"/>
+												<input type="hidden" name="questionId" value="882918372"/>
+												<input type="hidden" name="typeName882918372" value="单选题"/>
+												 												 <input type="hidden" name="start" value="27" />
+																									<input type="hidden" id="answer882918372" name="answer882918372" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918372');" >
+            <span data="A" qid="882918372" class="saveSingleSelect choice882918372 num_option  fl">A</span>
+            <div class="fl answer_p"><p style="white-space: normal;"><span style="font-size: 19px;">A.</span><span style="font-size: 19px;">存储器地址寄存器（MAR）</span></p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918372');" >
+            <span data="B" qid="882918372" class="saveSingleSelect choice882918372 num_option  check_answer  fl">B</span>
+            <div class="fl answer_p"><p style="white-space: normal;"><span style="font-size: 19px;">B.</span><span style="font-size: 19px;">程序计数器（PC）</span><br></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918372');" >
+            <span data="C" qid="882918372" class="saveSingleSelect choice882918372 num_option  fl">C</span>
+            <div class="fl answer_p"><p style="white-space: normal;"><span style="font-size: 19px;">C.</span><span style="font-size: 19px;">存储器数据寄存器（MDR）</span></p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918372');" >
+            <span data="D" qid="882918372" class="saveSingleSelect choice882918372 num_option  fl">D</span>
+            <div class="fl answer_p"><p style="white-space: normal;"><span style="font-size: 19px;">D.</span><span style="font-size: 19px;">指令寄存器（IR）</span></p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918383" class="questionLi scroll_882918383 singleQuesId" data="882918383">
+											                            															 <h3 class="mark_name colorDeep">29. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>某同步总线的时钟频率为 100MHz，宽度为 64 位，地址/数据线复用，每传送一次地址或者数据占用一个时钟周期。若该总线支持突发（猝发）传输方式，则一次“主存写”总线事务传输 128位数据所需要的时间至少是（ ）。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918383" value="0"/>
+												<input type="hidden" name="questionId" value="882918383"/>
+												<input type="hidden" name="typeName882918383" value="单选题"/>
+												 												 <input type="hidden" name="start" value="28" />
+																									<input type="hidden" id="answer882918383" name="answer882918383" value="B"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918383');" >
+            <span data="A" qid="882918383" class="saveSingleSelect choice882918383 num_option  fl">A</span>
+            <div class="fl answer_p"><p>20ns&nbsp;</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918383');" >
+            <span data="C" qid="882918383" class="saveSingleSelect choice882918383 num_option  fl">B</span>
+            <div class="fl answer_p"><p>40ns&nbsp;</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918383');" >
+            <span data="B" qid="882918383" class="saveSingleSelect choice882918383 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p>30ns&nbsp;</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918383');" >
+            <span data="D" qid="882918383" class="saveSingleSelect choice882918383 num_option  fl">D</span>
+            <div class="fl answer_p"><p>50ns&nbsp;</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918385" class="questionLi scroll_882918385 singleQuesId" data="882918385">
+											                            															 <h3 class="mark_name colorDeep">30. <span class="colorShallow">(单选题, 2.0分)</span> <div style="overflow:hidden;"><p>在流水机器中，全局性相关是指（）？</p></div></h3> 											<form>
+												<input type="hidden" name="type882918385" value="0"/>
+												<input type="hidden" name="questionId" value="882918385"/>
+												<input type="hidden" name="typeName882918385" value="单选题"/>
+												 												 <input type="hidden" name="start" value="29" />
+																									<input type="hidden" id="answer882918385" name="answer882918385" value="D"/>
+<div class="stem_answer">
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918385');" >
+            <span data="B" qid="882918385" class="saveSingleSelect choice882918385 num_option  fl">A</span>
+            <div class="fl answer_p"><p>先读后写相关</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918385');" >
+            <span data="C" qid="882918385" class="saveSingleSelect choice882918385 num_option  fl">B</span>
+            <div class="fl answer_p"><p>指令相关</p></div>
+        </div>
+                    
+                
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918385');" >
+            <span data="D" qid="882918385" class="saveSingleSelect choice882918385 num_option  check_answer  fl">C</span>
+            <div class="fl answer_p"><p>由转移指令引起的相关</p></div>
+        </div>
+                    
+        
+        <div class="clearfix answerBg"   onclick="saveSingleSelect(this,'882918385');" >
+            <span data="A" qid="882918385" class="saveSingleSelect choice882918385 num_option  fl">D</span>
+            <div class="fl answer_p"><p>先写后读相关</p></div>
+        </div>
+    </div>																							</form>
+										</div>
+																											</div>
+							</div>
+																																															
+							<div class="mark_table">
+								<div class="whiteDiv">
+									<h2 class="type_tit">二. 计算题 （共4题，40.0分） </h2>
+																																							<div id="sigleQuestionDiv_882918757" class="questionLi scroll_882918757 singleQuesId" data="882918757">
+											                            															 <h3 class="mark_name colorDeep">31. <span class="colorShallow">(计算题, 10.0分)</span> <div style="overflow:hidden;"><p>如图所示为双总线结构机器的数据通路，各构成部件如图，线上标注有小圈表示有控制信号，未标字符的线为直通线。&nbsp;</p>
+<p>“ADD R2，R0”指令完成(R0)+(R2)→R0的功能操作，画出其指令周期流程图，并列出相应的微操作控制信号序列。&nbsp;</p>
+<p><img src="https://p.ananas.chaoxing.com/star3/origin/cb7bec82bf9ce62a41aa55edfb04d334.png"><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918757" value="7"/>
+												<input type="hidden" name="questionId" value="882918757"/>
+												<input type="hidden" name="typeName882918757" value="计算题"/>
+												 												 <input type="hidden" name="start" value="30" />
+																									        
+<div class="sub_que_div_parent">
+    <div class="stem_answer examAnswer sub_que_div" dataId="882918757">
+        <div class="textDIV subEditor">
+            <textarea wordminnum="" wordmaxnum="" id="answer882918757" name="answer882918757">&lt;p&gt;&lt;img class=&quot;ans-ued-img&quot; src=&quot;https://p.ananas.chaoxing.com/star3/origin/1b1a1bb81324bdb2ddeb357f5250a116&quot;/&gt;&lt;/p&gt;</textarea>
+            <script>
+                window.UEDITOR_CONFIG.initialFrameWidth = '90%';
+                window.UEDITOR_CONFIG.initialFrameHeight = 150;
+                var ueOption882918757 = wordMinMaxNumOption({'pasteplain':true},'','');
+                var editor882918757 = UE.getEditor('answer882918757',ueOption882918757);
+                UE.getEditor('answer882918757').addListener('ready', function(){
+                    if(parseInt('0') ==0) {
+                        editor882918757.addListener('beforepaste', editorPaste);
+                    }
+                    $(this.document.body).on('focus',function(){
+                        if(!checkSubmitButton('882918757')) {
+                            document.activeElement.blur();
+                            return;
+                        }
+                        $(".sub_que_div").css("pointer-events","none")
+                        $(".sub_que_div[dataId='882918757']").css("pointer-events","auto")
+                        $("#save_882918757").show();
+                        registerUnSaveBtn('882918757');
+                    });
+					
+				    if(ueOption882918757.wordCount){
+					        var wordMaxNum = ueOption882918757.maximumWords || 0;
+        			        var me = this;
+        					var editorIframe = me.iframe;
+        			       	me.addListener('blur',function(){
+							    var wordMinNum = ueOption882918757.minimumWords || 0;
+			
+            					var count = me.pureWordCount();
+            					if ((wordMaxNum > 0 && count > wordMaxNum) || (wordMinNum > 0 && wordMinNum > count)) {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").addClass("borred");
+            					} else {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+            					}
+        				  });
+        				  me.addListener('focus',function(){
+        					      $(editorIframe).parents(".edui-editor.edui-default").addClass("borblue");
+        					      $(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+        				  });
+						  wordMaxNum > 0 && me.addListener('contentchange',function(){
+						          controlWordMax(me,wordMaxNum);
+				         });
+		            }
+                });
+			    if('' && '' > 0){
+		          initWordMaxMiddleContainer();
+		        }
+            </script>
+        </div>
+		<div  class="savebtndiv">
+        <a href="javascript:;" onclick="saveQuestion('882918757','882918757')" class="jb_btn jb_btn_60 fr  saveButtonClass" id="save_882918757" dataid="882918757"
+           style="display: none;margin-top: 10px;">保存</a>
+		</div>
+        <div class="clear"></div>
+    </div>
+</div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918760" class="questionLi scroll_882918760 singleQuesId" data="882918760">
+											                            															 <h3 class="mark_name colorDeep">32. <span class="colorShallow">(计算题, 10.0分)</span> <div style="overflow:hidden;"><p>某系统的存储器为2MB，每字块为8个字，每字32位，若cache为16KB，采用字节编址方式。&nbsp;</p>
+<p>问：（1）采用直接映射，主存地址格式是什么？</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;（2）采用全相联映射，主存地址格式是什么？</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;（3）采用16路组相联映射，主存地址格式是什么？</p></div></h3> 											<form>
+												<input type="hidden" name="type882918760" value="7"/>
+												<input type="hidden" name="questionId" value="882918760"/>
+												<input type="hidden" name="typeName882918760" value="计算题"/>
+												 												 <input type="hidden" name="start" value="31" />
+																									        
+<div class="sub_que_div_parent">
+    <div class="stem_answer examAnswer sub_que_div" dataId="882918760">
+        <div class="textDIV subEditor">
+            <textarea wordminnum="" wordmaxnum="" id="answer882918760" name="answer882918760">&lt;p&gt;&lt;img class=&quot;ans-ued-img&quot; src=&quot;https://p.ananas.chaoxing.com/star3/origin/8d308b430d332a8165af47b7442cfe8d&quot;/&gt;&lt;/p&gt;</textarea>
+            <script>
+                window.UEDITOR_CONFIG.initialFrameWidth = '90%';
+                window.UEDITOR_CONFIG.initialFrameHeight = 150;
+                var ueOption882918760 = wordMinMaxNumOption({'pasteplain':true},'','');
+                var editor882918760 = UE.getEditor('answer882918760',ueOption882918760);
+                UE.getEditor('answer882918760').addListener('ready', function(){
+                    if(parseInt('0') ==0) {
+                        editor882918760.addListener('beforepaste', editorPaste);
+                    }
+                    $(this.document.body).on('focus',function(){
+                        if(!checkSubmitButton('882918760')) {
+                            document.activeElement.blur();
+                            return;
+                        }
+                        $(".sub_que_div").css("pointer-events","none")
+                        $(".sub_que_div[dataId='882918760']").css("pointer-events","auto")
+                        $("#save_882918760").show();
+                        registerUnSaveBtn('882918760');
+                    });
+					
+				    if(ueOption882918760.wordCount){
+					        var wordMaxNum = ueOption882918760.maximumWords || 0;
+        			        var me = this;
+        					var editorIframe = me.iframe;
+        			       	me.addListener('blur',function(){
+							    var wordMinNum = ueOption882918760.minimumWords || 0;
+			
+            					var count = me.pureWordCount();
+            					if ((wordMaxNum > 0 && count > wordMaxNum) || (wordMinNum > 0 && wordMinNum > count)) {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").addClass("borred");
+            					} else {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+            					}
+        				  });
+        				  me.addListener('focus',function(){
+        					      $(editorIframe).parents(".edui-editor.edui-default").addClass("borblue");
+        					      $(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+        				  });
+						  wordMaxNum > 0 && me.addListener('contentchange',function(){
+						          controlWordMax(me,wordMaxNum);
+				         });
+		            }
+                });
+			    if('' && '' > 0){
+		          initWordMaxMiddleContainer();
+		        }
+            </script>
+        </div>
+		<div  class="savebtndiv">
+        <a href="javascript:;" onclick="saveQuestion('882918760','882918760')" class="jb_btn jb_btn_60 fr  saveButtonClass" id="save_882918760" dataid="882918760"
+           style="display: none;margin-top: 10px;">保存</a>
+		</div>
+        <div class="clear"></div>
+    </div>
+</div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918758" class="questionLi scroll_882918758 singleQuesId" data="882918758">
+											                            															 <h3 class="mark_name colorDeep">33. <span class="colorShallow">(计算题, 10.0分)</span> <div style="overflow:hidden;"><ol class=" list-paddingleft-2" style="list-style-type: decimal;">
+ <li><p>在中断情况下，CPU和设备的优先级如何考虑？请按降序排列各设备的中断优先级。</p></li>
+ <li><p>若CPU现执行设备B的中断服务程序，则IM2、IM1、IM0的状态是什么？如果CPU执行设备D的中断服务程序，则IM2、IM1、IM0的状态又是什么？</p></li>
+ <li><p>每一级的IM能否对某个优先级的个别设备单独进行屏蔽？如果不能，采取什么措施可以实现？</p></li>
+ <li><p>若要使设备C一提出中断请求，CPU立即响应，则应如何调整?</p></li>
+</ol>
+<p><img src="https://p.ananas.chaoxing.com/star3/origin/d47234d42bf3012c3ad75224e6bb5d78.png"><br></p></div></h3> 											<form>
+												<input type="hidden" name="type882918758" value="7"/>
+												<input type="hidden" name="questionId" value="882918758"/>
+												<input type="hidden" name="typeName882918758" value="计算题"/>
+												 												 <input type="hidden" name="start" value="32" />
+																									        
+<div class="sub_que_div_parent">
+    <div class="stem_answer examAnswer sub_que_div" dataId="882918758">
+        <div class="textDIV subEditor">
+            <textarea wordminnum="" wordmaxnum="" id="answer882918758" name="answer882918758">&lt;p&gt;&lt;img class=&quot;ans-ued-img&quot; src=&quot;https://p.ananas.chaoxing.com/star3/origin/3bf4810c3eb7a2e64f1c0ed605d6329c&quot;/&gt;&lt;/p&gt;</textarea>
+            <script>
+                window.UEDITOR_CONFIG.initialFrameWidth = '90%';
+                window.UEDITOR_CONFIG.initialFrameHeight = 150;
+                var ueOption882918758 = wordMinMaxNumOption({'pasteplain':true},'','');
+                var editor882918758 = UE.getEditor('answer882918758',ueOption882918758);
+                UE.getEditor('answer882918758').addListener('ready', function(){
+                    if(parseInt('0') ==0) {
+                        editor882918758.addListener('beforepaste', editorPaste);
+                    }
+                    $(this.document.body).on('focus',function(){
+                        if(!checkSubmitButton('882918758')) {
+                            document.activeElement.blur();
+                            return;
+                        }
+                        $(".sub_que_div").css("pointer-events","none")
+                        $(".sub_que_div[dataId='882918758']").css("pointer-events","auto")
+                        $("#save_882918758").show();
+                        registerUnSaveBtn('882918758');
+                    });
+					
+				    if(ueOption882918758.wordCount){
+					        var wordMaxNum = ueOption882918758.maximumWords || 0;
+        			        var me = this;
+        					var editorIframe = me.iframe;
+        			       	me.addListener('blur',function(){
+							    var wordMinNum = ueOption882918758.minimumWords || 0;
+			
+            					var count = me.pureWordCount();
+            					if ((wordMaxNum > 0 && count > wordMaxNum) || (wordMinNum > 0 && wordMinNum > count)) {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").addClass("borred");
+            					} else {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+            					}
+        				  });
+        				  me.addListener('focus',function(){
+        					      $(editorIframe).parents(".edui-editor.edui-default").addClass("borblue");
+        					      $(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+        				  });
+						  wordMaxNum > 0 && me.addListener('contentchange',function(){
+						          controlWordMax(me,wordMaxNum);
+				         });
+		            }
+                });
+			    if('' && '' > 0){
+		          initWordMaxMiddleContainer();
+		        }
+            </script>
+        </div>
+		<div  class="savebtndiv">
+        <a href="javascript:;" onclick="saveQuestion('882918758','882918758')" class="jb_btn jb_btn_60 fr  saveButtonClass" id="save_882918758" dataid="882918758"
+           style="display: none;margin-top: 10px;">保存</a>
+		</div>
+        <div class="clear"></div>
+    </div>
+</div>																							</form>
+										</div>
+																																																	<div id="sigleQuestionDiv_882918756" class="questionLi scroll_882918756 singleQuesId" data="882918756">
+											                            															 <h3 class="mark_name colorDeep">34. <span class="colorShallow">(计算题, 10.0分)</span> <div style="overflow:hidden;"><p>指令流水线有取指(IF)、译码(ID)、执行(EX)、访存(MEM)、写回寄存器堆(WB)五个过程段，共有6条指令连续输入此流水线，时钟周期为100ns。求流水处理器的加速比。</p></div></h3> 											<form>
+												<input type="hidden" name="type882918756" value="7"/>
+												<input type="hidden" name="questionId" value="882918756"/>
+												<input type="hidden" name="typeName882918756" value="计算题"/>
+												 												 <input type="hidden" name="start" value="33" />
+																									        
+<div class="sub_que_div_parent">
+    <div class="stem_answer examAnswer sub_que_div" dataId="882918756">
+        <div class="textDIV subEditor">
+            <textarea wordminnum="" wordmaxnum="" id="answer882918756" name="answer882918756">&lt;p&gt;&lt;img class=&quot;ans-ued-img&quot; src=&quot;https://p.ananas.chaoxing.com/star3/origin/d27245d040b21b5c2d66e3531e1b4836&quot;/&gt;&lt;/p&gt;</textarea>
+            <script>
+                window.UEDITOR_CONFIG.initialFrameWidth = '90%';
+                window.UEDITOR_CONFIG.initialFrameHeight = 150;
+                var ueOption882918756 = wordMinMaxNumOption({'pasteplain':true},'','');
+                var editor882918756 = UE.getEditor('answer882918756',ueOption882918756);
+                UE.getEditor('answer882918756').addListener('ready', function(){
+                    if(parseInt('0') ==0) {
+                        editor882918756.addListener('beforepaste', editorPaste);
+                    }
+                    $(this.document.body).on('focus',function(){
+                        if(!checkSubmitButton('882918756')) {
+                            document.activeElement.blur();
+                            return;
+                        }
+                        $(".sub_que_div").css("pointer-events","none")
+                        $(".sub_que_div[dataId='882918756']").css("pointer-events","auto")
+                        $("#save_882918756").show();
+                        registerUnSaveBtn('882918756');
+                    });
+					
+				    if(ueOption882918756.wordCount){
+					        var wordMaxNum = ueOption882918756.maximumWords || 0;
+        			        var me = this;
+        					var editorIframe = me.iframe;
+        			       	me.addListener('blur',function(){
+							    var wordMinNum = ueOption882918756.minimumWords || 0;
+			
+            					var count = me.pureWordCount();
+            					if ((wordMaxNum > 0 && count > wordMaxNum) || (wordMinNum > 0 && wordMinNum > count)) {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").addClass("borred");
+            					} else {
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borblue");
+            						$(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+            					}
+        				  });
+        				  me.addListener('focus',function(){
+        					      $(editorIframe).parents(".edui-editor.edui-default").addClass("borblue");
+        					      $(editorIframe).parents(".edui-editor.edui-default").removeClass("borred");
+        				  });
+						  wordMaxNum > 0 && me.addListener('contentchange',function(){
+						          controlWordMax(me,wordMaxNum);
+				         });
+		            }
+                });
+			    if('' && '' > 0){
+		          initWordMaxMiddleContainer();
+		        }
+            </script>
+        </div>
+		<div  class="savebtndiv">
+        <a href="javascript:;" onclick="saveQuestion('882918756','882918756')" class="jb_btn jb_btn_60 fr  saveButtonClass" id="save_882918756" dataid="882918756"
+           style="display: none;margin-top: 10px;">保存</a>
+		</div>
+        <div class="clear"></div>
+    </div>
+</div>																							</form>
+										</div>
+																											</div>
+							</div>
+																		
+		
+		</div>
+	
+	<div class="Marking_right_280 " id="rightHeight">
+
+		<div class="bomHet50">
+        	<span class="dq"><i></i>当前题目</span>
+        	<span class="yp"><i></i>已作答</span>
+        	<span class="wp"><i></i>未作答</span>
+        </div>
+
+		<div class="topicNumber" id="topicNumberScroll">
+										                <div class="topicNumber_checkbox colorDeep fs14"><span class="numRight fr"></span>一. 单选题  （60.0分） </div>
+				<ul class="topicNumber_list clearfix">
+																	<li id="answerSheet882918377" data="882918377" class=" current   active ">1</li>
+																	<li id="answerSheet882918369" data="882918369" class="  active ">2</li>
+																	<li id="answerSheet882918373" data="882918373" class="  active ">3</li>
+																	<li id="answerSheet882918367" data="882918367" class="  active ">4</li>
+																	<li id="answerSheet882918371" data="882918371" class="  active ">5</li>
+																	<li id="answerSheet882918382" data="882918382" class="  active ">6</li>
+																	<li id="answerSheet882918363" data="882918363" class="  active ">7</li>
+																	<li id="answerSheet882918366" data="882918366" class="  active ">8</li>
+																	<li id="answerSheet882918357" data="882918357" class="  active ">9</li>
+																	<li id="answerSheet882918368" data="882918368" class="  active ">10</li>
+																	<li id="answerSheet882918365" data="882918365" class="  active ">11</li>
+																	<li id="answerSheet882918370" data="882918370" class="  active ">12</li>
+																	<li id="answerSheet882918374" data="882918374" class="  active ">13</li>
+																	<li id="answerSheet882918384" data="882918384" class="  active ">14</li>
+																	<li id="answerSheet882918378" data="882918378" class="  active ">15</li>
+																	<li id="answerSheet882918358" data="882918358" class="  active ">16</li>
+																	<li id="answerSheet882918381" data="882918381" class="  active ">17</li>
+																	<li id="answerSheet882918375" data="882918375" class="  active ">18</li>
+																	<li id="answerSheet882918376" data="882918376" class="  active ">19</li>
+																	<li id="answerSheet882918379" data="882918379" class="  active ">20</li>
+																	<li id="answerSheet882918362" data="882918362" class="  active ">21</li>
+																	<li id="answerSheet882918359" data="882918359" class="  active ">22</li>
+																	<li id="answerSheet882918364" data="882918364" class="  active ">23</li>
+																	<li id="answerSheet882918356" data="882918356" class="  active ">24</li>
+																	<li id="answerSheet882918360" data="882918360" class="  active ">25</li>
+																	<li id="answerSheet882918380" data="882918380" class="  active ">26</li>
+																	<li id="answerSheet882918361" data="882918361" class="  active ">27</li>
+																	<li id="answerSheet882918372" data="882918372" class="  active ">28</li>
+																	<li id="answerSheet882918383" data="882918383" class="  active ">29</li>
+																	<li id="answerSheet882918385" data="882918385" class="  active ">30</li>
+									</ul>
+							                <div class="topicNumber_checkbox colorDeep fs14"><span class="numRight fr"></span>二. 计算题  （40.0分） </div>
+				<ul class="topicNumber_list clearfix">
+																	<li id="answerSheet882918757" data="882918757" class="  active ">31</li>
+																	<li id="answerSheet882918760" data="882918760" class="  active ">32</li>
+																	<li id="answerSheet882918758" data="882918758" class="  active ">33</li>
+																	<li id="answerSheet882918756" data="882918756" class="  active ">34</li>
+									</ul>
+					</div>
+	</div>
+</div>
+<div class="maskDiv" style="display:none;z-index:2001;"  id="timeOverSubmitConfirmPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:300px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<p class="popWord fs16 colorIn" style="margin: 10px 2px;">作答时间耗尽，试卷已提交</p>
+			<p class="popWord fs16 colorIn" style="margin: 2px 2px;">试卷领取时间：2023年06月11日19:03</p>
+			<p class="popWord fs16 colorIn" style="margin: 10px 2px;">考试用时：<span class="consumeMinutes">120</span>分钟</p>
+
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="">知道了</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv " style="display:none;z-index:2001;" id="showLoginInfo">
+    <div class="popDiv liveEwmPop">
+        <div class="popHead">
+            <a href="#" class="popClose fr"><img src="/exam-ans/mooc2/images/popClose.png" onclick="$('#showLoginInfo').fullFadeOut();"/></a>
+            <p class="fl fs18 colorDeep">直播二维码</p>
+        </div>
+        <div class="het62"></div>
+        <div class="livePop_con">
+            <div class="fs16 color1 liveweminfo">
+                <p>账号：<span class="color0" id="loginName"></span></p>
+                <p>密码：<span class="color0" id="password"></span></p>
+            </div>
+            <dl class="pop_ewm">
+                <dd>二维码仅考试期间有效</dd>
+                <dt><img id="ewmUrl" src="" onclick="rereshSecondDeviceQRCode()" /></dt>
+            </dl>
+        </div>
+
+    </div>
+</div>
+
+<div class="maskDiv" style="display:none;z-index:2000;"  id="submitConfirmPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:30%;width:450px;min-height:200px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+				<a href="javascript:;" class="popClose fr"><img src="/exam-ans/mooc2/images/popClose.png" onclick="$('#submitConfirmPop').fullFadeOut();"></a>
+			</div>
+			<div class="het62"></div>
+			<p class="popWord fs16 colorIn" style="margin: 30px 2px;">确认交卷？</p>
+
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirm" onclick="">确定</a>
+				<a href="javascript:" class="btnBlue btn_92_cancel fr fs14" onclick="$('#submitConfirmPop').fullFadeOut();">取消</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="audioLimitTimesWin">
+	<div class="popSetDiv wid440">
+			<div class="popHead RadisTop">
+				<a href="javascript:;" class="popClose fr" onclick="$('#audioLimitTimesWin').fullFadeOut();"><img src="/exam-ans/mooc2/images/popClose.png" /></a>
+				<p class="fl fs18 color1">提示</p>
+			</div>
+			<div class="het62"></div>
+			<p class="popWord fs16 color2 audioLimitTimesTip">此附件仅支持打开 <span></span> 次，你已打开 <span></span> 次，不能再次打开</p>
+			<div class="popBottom RadisBom">
+				<a href="javascript:;" class="jb_btn jb_btn_92 fr fs14" onclick="$('#audioLimitTimesWin').fullFadeOut();">知道了</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv popMoveShowHide" id="confirmEnterWin" style="display:none;z-index:1000;" tabindex="0" role="alertdialog" aria-label="进入考试"
+	 >
+	<div class="popDiv wid440 popMove">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr" tabindex="0" role="button" aria-label="关闭"
+				>
+				<img tabindex="-1" src="/exam-ans/mooc2/images/popClose.png" onclick="$('#confirmEnterWin').fullFadeOut();"/>
+			</a>
+			<p class="fl fs18 colorDeep" style="font-size:18px;" tabindex="0" role="option" >提示</p>
+		</div>
+		<div class="het62"></div>
+		<div class="readPad" style="padding-bottom:0px;" tabindex="0" role="option" >
+			<div class=" tip" style="line-height:26px;font-size:16px;min-height: 140px;width:100%;"></div>
+		</div>
+		<div class="popBottom">
+			<a href="javascript:;" class="jb_btn jb_btn_92 fr fs14 confirm" onclick="">进入考试</a>
+			<a href="javascript:;" class="btnBlue btn_92_cancel fr fs14" onclick="$('#confirmEnterWin').fullFadeOut();" style="width:88px;"
+							>取消</a>
+		</div>
+		<div class="het72" tabindex="0" role="option" id="confirmEnterWinEnd" aria-label="弹窗结尾"  ></div>
+	</div>
+</div>
+
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="multiTerminalWin">
+	<div class="popDiv wid440 Marking" style="left:50%;top:40%;width:480px;height:300px;margin-left:-240px;">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<p class="popWord fs16 colorIn" style="margin:18px 2px;"></p>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="">继续考试</a>
+				<a href="javascript:;" class="btnBlue btn_92_cancel fr fs14 cancel" onclick="$('#confirmEnterWin').fullFadeOut();" style="width:88px;">退出考试</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="examTipsPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:300px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 6px 2px;overflow: auto;height:160px;word-break: break-all;"></div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="$('#examTipsPop').fullFadeOut();">知道了</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="singleQuesLimitTimePop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:200px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 6px 2px;overflow: auto;height:160px;word-break: break-all;position:relative;top:20px;"> 本题作答时间已用完，将进入下一题 </div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="singleQuesLimitTimeConfirm();"> 确定 </a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="switchScreenPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:220px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 6px 2px;overflow: auto;height:160px;word-break: break-all;position:relative;top:20px;"></div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="$('#switchScreenPop').fullFadeOut();">确定</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+
+<div class="maskDiv popMoveShowHide" id="confirmRetestWin" style="display:none;z-index:1000;">
+	<div class="popDiv wid440 popMove">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr"><img src="/exam-ans/mooc2/images/popClose.png" onclick="$('#confirmRetestWin').fullFadeOut();"/></a>
+			<p class="fl fs18 colorDeep" style="font-size:18px;">提示</p>
+		</div>
+		<div class="het62"></div>
+		<div class="readPad" style="padding-bottom:0px;">
+			<div class=" tip" style="line-height:26px;font-size:16px;min-height: 80px;width:100%;"></div>
+		</div>
+		<div class="popBottom">
+			<a href="javascript:;" class="jb_btn jb_btn_92 fr fs14 confirm" onclick="">进入考试</a>
+			<a href="javascript:;" class="btnBlue btn_92_cancel fr fs14" onclick="$('#confirmRetestWin').fullFadeOut();" style="width:88px;">取消</a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="exitTimesSubmitPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:220px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 6px 2px;overflow: auto;height:160px;word-break: break-all;" data="系统检测到你已离开考试{1}次，将强制收卷"></div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="$('#exitTimesSubmitPop').fullFadeOut();" data="知道了"></a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv" style="display:none;z-index:1000;"  id="exitDurationSubmitPop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:220px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">提示</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 6px 2px;overflow: auto;height:160px;word-break: break-all;" data="系统检测到你的切屏时长已超过{1}秒，将强制收卷"></div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="$('#exitDurationSubmitPop').fullFadeOut();" data="知道了"></a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv" style="display:none;z-index:2001;"  id="teacherNoticePop">
+	<div class="popDiv wid440 Marking" style="left:39%;top:40%;width:480px;height:300px">
+			<div class="popHead">
+				<p class="fl fs18 colorDeep">教师提醒</p>
+			</div>
+			<div class="het62"></div>
+			<div class="popWord fs16 colorIn" style="margin: 10px 2px; height:200px;overflow:auto;"></div>
+			<div class="popBottom">
+				<a href="javascript:" class="jb_btn jb_btn_92 fr fs14 confirmClose" onclick="$('#teacherNoticePop').fullFadeOut()">知道了</a>
+			</div>
+			<div class="het72"></div>
+	</div>
+</div>
+
+<script>
+	$(document).keydown(function(event){
+		if ((event.altKey)&& ((event.keyCode==37)|| (event.keyCode==39))) {
+			event.returnValue=false;
+			return false;
+		}
+
+		if(event.keyCode==116){
+			return false;
+		}
+
+		if((event.ctrlKey) && (event.keyCode==82)){
+			return false;
+		}
+
+		if(event.keyCode==13){
+			event.preventDefault();
+		}
+	});
+
+	var maxSecond = 59;
+	maxtime = 1955;
+	var limitTime = 120 * 60;
+	var testPaperStatus = "1";
+
+	if(maxtime >= 0) {
+		timers = setInterval("CountDown()",1000);
+		function CountDown(){
+			if(maxtime>0){
+				minutes = Math.floor(maxtime/60);
+				if(minutes < 10) {
+					minutes = "0" + minutes;
+				}
+				seconds = Math.floor(maxtime%60);
+				if(seconds < 10) {
+					seconds = "0" + seconds;
+				}
+				msg = minutes +"' "+seconds+"''";
+				//$(".mark_timeDiv").show();
+				$("#timer").html(msg);
+				$("#remainTime").val(maxtime);
+				--maxtime;
+			} else{
+				$("#timeOver").val(true);
+				clearInterval(timers);
+				timeOverSubmitTest();
+			}
+		}
+	}
+
+    $(document).ready(function () {
+    	$('textarea').autoHeight({len: 53});
+    	$(".programAswer").niceScroll({
+    			cursorborder: "",
+    			cursorwidth: "8px",
+    			cursorcolor: "#E6ECF5",
+    			boxzoom: false
+    	});
+		
+
+    	$(".optionsCon").niceScroll({
+    			cursorborder: "",
+    			cursorwidth: "8px",
+    			cursorcolor: "#E6ECF5",
+    			boxzoom: false
+    	});
+    	$(window).scroll(function () {
+    		$(".questionLi").each(function () {
+    			var divH = $(this).offset().top;
+    			var questionId = $(this).attr("data");
+    			if ($(window).scrollTop() > divH - $(this).height() && $(window).scrollTop() < divH) {
+    				$(".topicNumber_list li").removeClass("current");
+    				$("#answerSheet" + questionId).addClass("current");
+    				return false;
+    			}
+    		});
+    	});
+    });
+
+	 $(document).bind("visibilitychange",function(e){
+         checkRemainTime(document.visibilityState);
+      });
+</script>
+<script>
+ $(document).ready(function () {
+    var webSnapshotMonitor = $('#webSnapshotMonitor').val();
+	var snapshotMonitor = $('#snapshotMonitor').val();
+	if (snapshotMonitor == 1 && webSnapshotMonitor != 1) {
+	    //openExamClientFaceMonitor('-1', '0', '{"classId":"72521498", "answerId":"96639012"}') ;
+		openExamClientScreenAndCapture('-1', '0', '{"classId":"72521498", "answerId":"96639012"}');
+	}
+	var pcclientSwitchout = $('#pcclientSwitchout').val();
+	if(pcclientSwitchout == 1 && webSnapshotMonitor != 1){
+	    openExamClientScreenCutting();
+	}else if(pcclientSwitchout == 0 && webSnapshotMonitor != 1){
+		closeExamClientScreenCutting();
+	}
+
+	 $(".sub_que_div_parent").click(function(){
+		 if ($(this).find('.saveButtonClass:visible').length==0) {
+			 var firstVisibleSaveBtn = $('.saveButtonClass:visible').first();
+			 if (firstVisibleSaveBtn.length == 1) {
+				 $.toast({
+					 type : 'notice',
+					 content : '请保存答案'
+				 });
+				 scrollToSaveButton(firstVisibleSaveBtn);
+			 }
+		 }
+	 })
+
+ });
+</script>
+<script src="/exam-ans/space/work/js/preview-attach.js?v=2022-0921-1530"></script><link href="/exam-ans/css/work/viewer.min.css?v=2021-0830-1700" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/exam-ans/js/jquery.md5.js"></script>
+<script type="text/javascript" src="/exam-ans/space/work/js/viewer-jquery.min.js?v=2021-0706-1800"></script>
+<script type="text/javascript">
+try{
+	$(function(){
+		var imgList = $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .ans-formula-moudle, .no_view)");
+		for (var i = 0, len = imgList.size(); i < len; i++) {
+			 var src = imgList.eq(i).attr("src");
+			 if(src){
+    			var index = src.indexOf("375_1024");
+    			if (index != -1) {
+    				src = src.replace("375_1024", "origin");
+    			}
+                 var index2 = src.indexOf("750_1024");
+                 if (index2 != -1) {
+                     src = src.replace("750_1024", "origin");
+                 }
+    			imgList.eq(i).attr("data-original", src);
+		   }
+		}
+        $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .no_view)").viewer({
+			url : 'data-original',
+		});
+	})
+  }catch(error){}
+</script><!-- 代码高亮开始 start -->
+<link type="text/css" href="/exam-ans/views/mooc2/ueditor/insertcode/css/default.min.css" rel="stylesheet" />
+<script type="text/javascript" src="/exam-ans/js/highlight.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/exam-ans/js/highlightjs-line-numbers.js" charset="utf-8"></script>
+<style>
+    pre,code {display: block;background: #F7F8FA;border: 1px solid #E1E3E5; font-size: 14px; border-radius: 4px; padding: 30px 20px; margin: 20px 0; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji; }
+    pre{overflow-x: auto;margin:.5em 0;padding:.4em .6em;border-radius:8px;background:#f8f8f8;}
+    pre.autolinebreak{white-space: normal; }
+    code.hljs{background: #F7F8FA;}
+    pre code,pre pre{ margin: 0; background: none;border: none;}/*padding: 0;*/
+    .code-tool-wrap{padding-bottom: 1em;left: 20px; top: 2px; width: calc(100% - 40px); height: 24px; font-size: 14px; user-select: none;}
+    .code-lang{ display:inline-block; color: #ACB4BF; }
+    .ans-cc .ans-noborder th,.ans-cc .ans-noborder td{border-color:transparent;}
+    .ans-cc pre,.ans-cc code{ position: relative; padding: 0px 20px 30px; margin: 20px 0;border: 1px solid #E1E3E5; border-radius: 4px; color: #474C59; background: #F7F8FA; font-size:14px; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;  }
+    .ans-cc pre{overflow: auto}
+    .ans-cc pre code,.ans-cc pre pre{ padding: 0; border:none; margin: 0; background: none;border-radius: 0;}
+    .ans-cc pre.autolinebreak{white-space: pre-wrap;word-wrap: break-word;}
+    .hljs-ln-numbers {text-align: center;color: #ccc;border-right: 1px solid #CCC;vertical-align: top;padding-right: 5px !important;}
+    .hljs-ln-code {padding-left: 5px !important;}
+    /* 全局去掉表格样式 */
+    .ans-cc pre code table tr td {border: solid 0px #cfd4dc;text-align: left}
+    /* 作业表格适配，考试表格适配 */
+    .ans-cc pre table{table-layout: unset;}
+    .ans-cc pre code table{table-layout: unset;}
+    /* pre 标签未换行 */
+    .ans-cc pre.line-numbers{clear:both}
+    .ans-cc pre{clear:both}
+
+    /* app作业库 考试库 查看样式 */
+
+    .hljs-link, .hljs-operator, .hljs-regexp, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-symbol, .hljs-template-variable, .hljs-variable {
+        color: #ab5656 !important;
+    }
+    .hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+        color: #800 !important;
+    }
+    /* 章节作业 */
+    .hljs-ln span{margin-right:0}
+
+    /* 学习通颜色覆盖 */
+    .hljs-type{color:#800 !important;}
+    .hljs-section,.hljs-title{color:#800 !important;font-weight:700}
+    /* 背景颜色 */
+    .ans-cc pre code td{background-color: unset;}
+</style>
+<script>
+    /**
+     * 保证最后加载
+     */
+    $(function () {
+        var pre = $(".ans-cc").find('pre')
+        if(pre){
+            pre.each(function () {
+                // debugger
+                var me = this;
+                var lang = me.firstChild && me.firstChild.lang;
+                if (typeof (lang) == 'undefined' || lang == null || lang == "" ) {
+                    lang = me.firstChild && me.firstChild.className;
+                    if (typeof (lang) != 'undefined' && lang != null && lang != "" ) {
+                        var split = lang.split("-");
+                        lang = split[1];
+                        if (lang == 'plain') {
+                            lang = 'Plain Text';
+                        }
+                    } else {
+                        lang = 'Plain Text';
+                    }
+                }
+                me.innerHTML = '<div class="code-tool-wrap clearfix"><div class="code-lang fl">' + lang
+                        + '</div><div class="copy1 fr"><i></i><span></span></div></div>' + me.innerHTML;
+                me.innerHTML = me.innerHTML.replace(/<br\s*\/?>/g, "\n");
+            })
+        }
+
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad({ singleLine:true });
+    })
+</script>
+<!-- 代码高亮结束 end --><script src="/exam-ans/mooc2/js/exam/watermark.min.js?v=2023-0131-0946"></script>
+<script  type="text/javascript" async="async" defer="defer" src="https://detect.chaoxing.com/api/passport2-onlineinfo.js?key=true&refer=http://i.mooc.chaoxing.com&from=exam&callback=ture&_v=1686486444710-21651"></script>
+
+	
+</body>
+</html>
