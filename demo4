@@ -1,0 +1,9 @@
+n1 = 1
+n2  =3.14154;
+print(n1,n2,type(n1),type(n2))
+print(n1,)
+from decimal import  Decimal#精准数据类型
+print(Decimal("1.1")+Decimal("2.2"))
+s1 = "128"
+print(int(s1))
+print(type(s1))

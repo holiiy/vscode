@@ -1,0 +1,5 @@
+lst =['hello','world','98','hello','world']
+#list=list(['hello','world','98'])
+print(lst.index('hello'))
+print(lst.index('98'))
+print(lst.index('hello',1,4))#  [1,4)
